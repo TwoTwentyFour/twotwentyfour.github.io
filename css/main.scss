@@ -1,0 +1,36 @@
+html, body {
+    margin: 0;
+}
+
+.title {
+    margin: 25%;
+    font-family: 'Permanent Marker', cursive;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-size: 32px;
+}
+
+body {
+    background-color: #fff;
+    -webkit-animation: random 15s infinite;
+    animation: random 15s infinite;
+}
+@keyframes  random {
+   25% {
+       background-color: yellow; 
+       color: black;
+    } 
+   50% { 
+       background-color: black;
+       color: yellow;
+    } 
+   75% { 
+       background-color: black; 
+       color: white;
+    } 
+   100% { 
+       background-color: white; 
+       color: black;
+    }
+}
